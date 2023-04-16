@@ -33,9 +33,4 @@ public class Server_Part1 {
 
 	}
 
-	/*private static String crackPassword(String passwordHash) {
-		// TODO Auto-generated method stub
-		return null;
-	}*/
-
 }
