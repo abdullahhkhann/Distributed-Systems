@@ -4,8 +4,10 @@ import java.util.Arrays;
 public class BruteForce {
 
 	/*public static void main(String[] args) {
+	
+		//Test BruteForce Algorithm//
 		
-		String password = "aB 3"; // set a test password
+	    String password = "aB 3"; // set a test password
 	    String hash = hash(password); // hash the test password
 	    String crackedPassword = crackPassword(hash); // crack the hash using the brute-force method
 	    if (password.equals("")) {
@@ -68,18 +70,6 @@ public class BruteForce {
 	}
 
 	public static String hash(String input) {
-	    /*try {
-	        MessageDigest md = MessageDigest.getInstance("SHA-256");
-	        byte[] hash = md.digest(input.getBytes(StandardCharsets.UTF_8));
-	        StringBuilder sb = new StringBuilder();
-	        for (byte b : hash) {
-	            sb.append(String.format("%02x", b));
-	        }
-	        return sb.toString();
-	    } catch (NoSuchAlgorithmException ex) {
-	        System.err.println("SHA-256 algorithm not found!");
-	        return null;
-	    }*/
 		
 		try {
 			MessageDigest digest = MessageDigest.getInstance("SHA-256"); // Use "SHA-256"
