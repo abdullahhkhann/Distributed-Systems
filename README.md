@@ -25,5 +25,19 @@ Extended the Client-Server from 3.1.
 - Added the function to generate a random password.  
 
 In conclusion, made a graph to compare the average time it takes as we increase the number of requests and clients running on 1 server. All passwords are 3 characters.  
-![Distributed Systems 3.2](https://github.com/abdullahhkhann/Distributed-Systems/blob/7208d52aaa6c9d601c9f64058429f629d7745f70/Distributed%20Systems%203.2/image.png)
+![Distributed Systems 3.2](https://github.com/abdullahhkhann/Distributed-Systems/blob/7208d52aaa6c9d601c9f64058429f629d7745f70/Distributed%20Systems%203.2/image.png)  
 
+## Distributed Systems 3.3
+
+Added a load balancer to distribute the load to 3 servers in a round-robin fashion, where the load balancer receives the requests and distributes them to the servers and the servers then process the request and reply back to the client directly. This makes it a 3-tier client server architecture and makes the system scalable.  
+
+Computed the average execution time for each server.  
+***Server 1***:  
+![Distributed Systems 3.3](https://github.com/abdullahhkhann/Distributed-Systems/blob/e9c38e91d5c72e65cc6f447284444f4b5e364764/Distributed%20Systems%203.1/image.png)  
+***Server 2***:  
+![Distributed Systems 3.3](https://github.com/abdullahhkhann/Distributed-Systems/blob/e9c38e91d5c72e65cc6f447284444f4b5e364764/Distributed%20Systems%203.1/image.png)  
+***Server 3***:  
+![Distributed Systems 3.3](https://github.com/abdullahhkhann/Distributed-Systems/blob/e9c38e91d5c72e65cc6f447284444f4b5e364764/Distributed%20Systems%203.1/image.png)  
+
+In conclusion, we then analysed the different execution time and compared them.  
+![Distributed Systems 3.3](https://github.com/abdullahhkhann/Distributed-Systems/blob/e9c38e91d5c72e65cc6f447284444f4b5e364764/Distributed%20Systems%203.1/image.png)  
