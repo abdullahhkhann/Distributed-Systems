@@ -41,5 +41,5 @@ Computed the average execution time for each server.
 ***Server 3***:  
 ![Distributed Systems 3.3](https://github.com/abdullahhkhann/Distributed-Systems/blob/558573ca95791b56e592dfc3057210414f0a0a03/Distributed%20Systems%203.3/Server3.PNG)  
 
-In conclusion, we then analysed the different execution time and compared them.  
+In conclusion, we then analysed the different execution times and compared them.  
 ![Distributed Systems 3.3](https://github.com/abdullahhkhann/Distributed-Systems/blob/main/Distributed%20Systems%203.3/image.png)  
