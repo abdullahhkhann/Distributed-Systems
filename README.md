@@ -14,14 +14,16 @@ Extended the Client-Server from 3.1.
 ***<u>Client</u>***:  
 - Added multiple clients sending multiple requests to the server.  
 - Password is now randomly generated for each request, rather than having a fixed password.  
+![Distributed Systems 3.2](https://github.com/abdullahhkhann/Distributed-Systems/blob/48df6b66d675df22e3bfafce165a18a4a1063bd5/Distributed%20Systems%203.2/Client.PNG)  
 
 ***<u>Server</u>***:  
 - Server now calculates amount of time each request takes, in milliseconds, and sends it back to the client along with the cracked password.  
 - Server now calculates average time taken for all the requests (passwords to be cracked).  
+![Distributed Systems 3.2](https://github.com/abdullahhkhann/Distributed-Systems/blob/48df6b66d675df22e3bfafce165a18a4a1063bd5/Distributed%20Systems%203.2/Server.PNG)  
 
 ***<u>BruteForce</u>***:
 - Added the function to generate a random password.  
 
-In conclusion, made a graph to compare the average time it takes as we increase the number of requests and clients running on 1 server. All passwords are 3 characters.
-  
+In conclusion, made a graph to compare the average time it takes as we increase the number of requests and clients running on 1 server. All passwords are 3 characters.  
+![Distributed Systems 3.2](https://github.com/abdullahhkhann/Distributed-Systems/blob/7208d52aaa6c9d601c9f64058429f629d7745f70/Distributed%20Systems%203.2/image.png)
 
