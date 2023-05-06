@@ -33,11 +33,13 @@ Added a load balancer to distribute the load to 3 servers in a round-robin fashi
 
 Computed the average execution time for each server.  
 ***Server 1***:  
-![Distributed Systems 3.3](https://github.com/abdullahhkhann/Distributed-Systems/blob/e9c38e91d5c72e65cc6f447284444f4b5e364764/Distributed%20Systems%203.1/image.png)  
+![Distributed Systems 3.3](https://github.com/abdullahhkhann/Distributed-Systems/blob/558573ca95791b56e592dfc3057210414f0a0a03/Distributed%20Systems%203.3/Server1.PNG)  
+
 ***Server 2***:  
-![Distributed Systems 3.3](https://github.com/abdullahhkhann/Distributed-Systems/blob/e9c38e91d5c72e65cc6f447284444f4b5e364764/Distributed%20Systems%203.1/image.png)  
+![Distributed Systems 3.3](https://github.com/abdullahhkhann/Distributed-Systems/blob/558573ca95791b56e592dfc3057210414f0a0a03/Distributed%20Systems%203.3/Server2.PNG)  
+
 ***Server 3***:  
-![Distributed Systems 3.3](https://github.com/abdullahhkhann/Distributed-Systems/blob/e9c38e91d5c72e65cc6f447284444f4b5e364764/Distributed%20Systems%203.1/image.png)  
+![Distributed Systems 3.3](https://github.com/abdullahhkhann/Distributed-Systems/blob/558573ca95791b56e592dfc3057210414f0a0a03/Distributed%20Systems%203.3/Server3.PNG)  
 
 In conclusion, we then analysed the different execution time and compared them.  
-![Distributed Systems 3.3](https://github.com/abdullahhkhann/Distributed-Systems/blob/e9c38e91d5c72e65cc6f447284444f4b5e364764/Distributed%20Systems%203.1/image.png)  
+![Distributed Systems 3.3](https://github.com/abdullahhkhann/Distributed-Systems/blob/main/Distributed%20Systems%203.3/image.png)  
