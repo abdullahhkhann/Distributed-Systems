@@ -9,12 +9,12 @@ Created a Client-Server distributed system, where they both communicate with eac
 
 ## Distributed Systems 3.2
 
-Extended the Client-Server from 3.1.
-<u><i>Client</u></i>: - Added multiple clients sending multiple requests to the server.  
-                      - Password is now randomly generated for each request, rather than having a fixed password.  
-<u><i>Server</u></i>: - Server now calculates amount of time each request takes, in milliseconds, and sends it back to the client along with the cracked password.  
-                      - Server now calculates average time taken for all the requests (passwords to be cracked).  
-<u><i>BruteForce</u></i>: Added the function to generate a random password.  
+Extended the Client-Server from 3.1.  
+***<u>Client</u>***: - Added multiple clients sending multiple requests to the server.  
+                     - Password is now randomly generated for each request, rather than having a fixed password.  
+***<u>Server</u>***: - Server now calculates amount of time each request takes, in milliseconds, and sends it back to the client along with the cracked password.  
+                     - Server now calculates average time taken for all the requests (passwords to be cracked).  
+***<u>BruteForce</u>***: Added the function to generate a random password.  
 
 In conclusion, made a graph to compare the avearge time it takes as we increase the number of requests and clients running on 1 server. All passwords are 3 characters.  
 
